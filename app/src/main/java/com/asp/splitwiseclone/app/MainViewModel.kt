@@ -1,4 +1,4 @@
-package com.asp.splitwiseclone
+package com.asp.splitwiseclone.app
 
 import androidx.lifecycle.ViewModel
 

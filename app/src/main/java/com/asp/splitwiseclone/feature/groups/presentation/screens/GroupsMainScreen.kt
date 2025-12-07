@@ -1,4 +1,4 @@
-package com.asp.splitwiseclone.tabs.groups.ui.screens
+package com.asp.splitwiseclone.feature.groups.presentation.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -29,13 +29,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.asp.splitwiseclone.R
-import com.asp.splitwiseclone.usecases.composables.NavBar
-import com.asp.splitwiseclone.usecases.composables.systemStatusBarHeight
+import com.asp.splitwiseclone.core.components.NavBar
+import com.asp.splitwiseclone.core.components.systemStatusBarHeight
 
 @Composable
 fun GroupsMainScreen(isInitialScreen: Boolean) {
@@ -125,8 +123,7 @@ fun GroupsMainScreen(isInitialScreen: Boolean) {
         ) {
             Text(
                 text = "Welcome to Splitwise, Aditya!",
-                fontWeight = FontWeight.Bold,
-                fontSize = 20.sp
+                style = MaterialTheme.typography.headlineSmall
             )
 
             Column(
@@ -143,7 +140,7 @@ fun GroupsMainScreen(isInitialScreen: Boolean) {
 
                 Text(
                     text = "Splitwise groups you create or are added to will show here",
-                    fontSize = 18.sp,
+                    style = MaterialTheme.typography.headlineSmall,
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(vertical = 10.dp, horizontal = 20.dp),
@@ -174,7 +171,7 @@ fun GroupsMainScreen(isInitialScreen: Boolean) {
                         )
                         Text(
                             text = "Start a new group",
-                            fontSize = 16.sp,
+                            style = MaterialTheme.typography.titleMedium,
                             color = MaterialTheme.colorScheme.tertiary
                         )
                     }

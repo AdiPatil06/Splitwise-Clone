@@ -1,4 +1,4 @@
-package com.asp.splitwiseclone.onboarding.ui.screens
+package com.asp.splitwiseclone.feature.onboarding.presentation.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -31,7 +31,7 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.asp.splitwiseclone.R
-import com.asp.splitwiseclone.usecases.composables.systemNavBarHeight
+import com.asp.splitwiseclone.core.components.systemNavBarHeight
 
 @Composable
 fun InitialScreen() {

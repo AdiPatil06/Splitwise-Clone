@@ -1,4 +1,4 @@
-package com.asp.splitwiseclone.ui.theme
+package com.asp.splitwiseclone.core.theme
 
 import androidx.compose.ui.graphics.Color
 

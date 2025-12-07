@@ -1,4 +1,4 @@
-package com.asp.splitwiseclone.usecases.composables
+package com.asp.splitwiseclone.core.components
 
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues

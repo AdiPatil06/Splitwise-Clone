@@ -1,4 +1,4 @@
-package com.asp.splitwiseclone.usecases.composables
+package com.asp.splitwiseclone.core.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -23,7 +23,6 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.asp.splitwiseclone.R
 
 data class NavItems(
@@ -84,7 +83,7 @@ fun NavBar() {
                     Text(
                         text = it.title,
                         color = if (selected == it.title) MaterialTheme.colorScheme.secondary else Color.White,
-                        fontSize = 14.sp,
+                        style = MaterialTheme.typography.titleSmall,
                         fontWeight = if (selected == it.title) FontWeight.Bold else FontWeight.Normal
                     )
                 }
