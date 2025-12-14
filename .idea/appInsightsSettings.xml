@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.asp.splitwiseclone" />
+                  <option name="mobileSdkAppId" value="1:37194573584:android:114870208f67d2cf8ae795" />
+                  <option name="projectId" value="splitwise-clone-5318d" />
+                  <option name="projectNumber" value="37194573584" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

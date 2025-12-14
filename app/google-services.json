@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "37194573584",
+    "project_id": "splitwise-clone-5318d",
+    "storage_bucket": "splitwise-clone-5318d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37194573584:android:114870208f67d2cf8ae795",
+        "android_client_info": {
+          "package_name": "com.asp.splitwiseclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37194573584-1eevpjepvemjv5slv68psfss0uvbil5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asp.splitwiseclone",
+            "certificate_hash": "ebd608f5c22804770035550df4fb374613d4c499"
+          }
+        },
+        {
+          "client_id": "37194573584-utqpdnuac7jracoqbtpahp5drs4f5def.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCivRyIGFo0eItClScoymhbzxbOlZA_iGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37194573584-utqpdnuac7jracoqbtpahp5drs4f5def.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
